@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/text_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/author_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:text="dhsfbnhdsdhgfvh"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <!--<ScrollView-->
+    <!--android:id="@+id/content_review22222"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/author_review">-->
+
+    <TextView
+        android:id="@+id/content_review"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author_review"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:text="bla bla bla bla bla bla bla "
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:textStyle="normal" />
+    <!--</ScrollView>-->
+
+    <TextView
+        android:id="@+id/url_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_review"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="nmbhjbjjbj"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#0616ef" />
+</RelativeLayout>

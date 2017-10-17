@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <string name="no_movies">No Movies found.</string>
+    <string name="no_internet">No Internet Connection.</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Movies Settings</string>
+    <!-- Details Activity Title [CHAR LIMIT=NONE] -->
+    <string name="details_title">Movie details</string>
+    <string name="favorites_title">Favorites</string>
+
+    <string name="filter_popular">Most Popular</string>
+    <string name="filter_top_rated">Top Rated</string>
+    <string name="release_date">Release date: %s</string>
+    <string name="vote_average">Vote average:</string>
+    <string name="reviews_title">Reviews</string>
+    <string name="button_play_trailer">Play Trailer</string>
+    <string name="by_author_review">by %s</string>
+    <string name="details_activity_name">Movie Details</string>
+    <string name="trailer_title">Trailers</string>
+    <string name="synopsis_title">Synopsis</string>
+    <string name="filter_favorites">Favorites</string>
+    <string name="trailer_type">Trailer</string>
+    <string name="trailer_site_youtube">YouTube</string>
+    <string name="empty_txt">It\'s a bit lonely here... </string>
+    <string name="empty_view_subtitle_text">Get started by adding a movie.</string>
+
+    <string name="editor_delete_favorite_failed">Deleting failed</string>
+    <string name="editor_delete_favorite_successful">Deleting success</string>
+
+</resources>
